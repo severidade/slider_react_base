@@ -3,7 +3,7 @@
 Esse slider em React foi feito utilizando a biblioteca https://swiperjs.com/
 
 
-## Através do NPM
-para instalar o Swiper através do NPM
+## Dependências
+Para instalar o Swiper através do NPM basta escrever no terminal 
 
 <code> $ npm install swiper</code>
