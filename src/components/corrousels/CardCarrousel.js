@@ -7,22 +7,15 @@ export default function CardCarrousel() {
     spaceBetween: 0,
     slidesPerView: 1,
     navigation: true,
-    effect: "fade",
     loop: true,
+    pagination: {
+      clickable: true,
+    },
     autoplay: {
       delay: 2000,
     },
-    pagination: {
-      clickable: true,
-    }
-    // spaceBetween: 0,
-    // slidesPerView: Products.length < 3 ? Products.length : 3,
-    // navigation: Products.length >= 3, //retorna true
-    // draggable: Products.length >= 3,
-    // loop: Products.length >= 3,
-    // pagination: {
-    //   clickable: true,
-    // }
+    effect: "fade",
+    // o efeito "fade" só funciona para slidesPerView = 1
   }
   return(
     <Slider settings={settings}>
