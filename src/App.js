@@ -1,9 +1,10 @@
 import './App.css';
+import CardCarrousel from './components/corrousels/CardCarrousel';
 
 function App() {
   return (
     <>
-      <h1>Olá</h1>
+      <CardCarrousel />
     </>
   );
 }

@@ -1,0 +1,26 @@
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: olive;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swiper-slide:nth-child(odd){
+    background-color: rgb(83, 255, 71);
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: tomato;
+  }
+  
+  .swiper-button-prev {
+    color: #718096;
+    background: tomato;
+  }
+  
+  .swiper-button-next {
+    color: #718096
+  }

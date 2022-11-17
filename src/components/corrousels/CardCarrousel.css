@@ -1,0 +1,17 @@
+.swiper-slide {
+  display: grid;
+}
+
+.swiper-slide > .picture_bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+  
+.picture_bg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
