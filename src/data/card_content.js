@@ -1,7 +1,7 @@
-import Foto_01 from '../img/01.jpg'
-import Foto_02 from '../img/02.jpg'
-import Foto_03 from '../img/03.jpg'
-import Foto_04 from '../img/04.jpg'
+import Foto_01 from '../img/flores/01.jpg'
+import Foto_02 from '../img/flores/02.jpg'
+import Foto_03 from '../img/flores/03.jpg'
+import Foto_04 from '../img/05.jpg'
 
 // import Animation from '../img/texturas/t1.gif'
 

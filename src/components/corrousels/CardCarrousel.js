@@ -24,10 +24,10 @@ export default function CardCarrousel() {
             <picture className='picture_bg'>
               <img src={ card.foto } alt={`fundo ${card.product} `} />
             </picture>
-            <h1> { card.product } </h1>
-            <p> { card.product_line}</p>
+            {/* <h1> { card.product } </h1> */}
+            {/* <p> { card.product_line}</p>
             <p> { card.highlight_info }</p>
-            <p> { card.product_info }</p>
+            <p> { card.product_info }</p> */}
             {/* <Card card={card} /> */}
           </Slide>
         ))}
